@@ -1,5 +1,4 @@
 import axios from "axios";
-// import { errorMessage } from "../globalFunctions";
 
 export const baseURL = "https://dummyjson.com";
 

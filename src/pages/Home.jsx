@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useExampleStore } from "../stores/example.store";
 import { useShallow } from "zustand/react/shallow";
-import { Button, Container, Flex, Tabs } from "@mantine/core";
+import { Tabs } from "@mantine/core";
 import Banner from "../components/pages/home/banner";
 import TabsBar from "../components/pages/home/tabsBar";
 import { useMealStore } from "../stores/meal.store";

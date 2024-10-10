@@ -26,3 +26,14 @@ button:disabled{
 body{
     background: linear-gradient(90deg, rgba(255,238,227,1) 4%, rgba(219,238,255,1) 83%);
 }
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(189, 187, 187);
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:rgb(248, 218, 198);
+}

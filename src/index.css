@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mantine-Tabs-tab[data-active]{
+    color: #0b4273;
+    border-bottom: 4px solid #0b4273 !important;
+}
+.mantine-Tabs-list::before{
+    border: none !important;
+}
+.tab-scroll::-webkit-scrollbar{
+    height: 10px;
+}
+.tab-scroll::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(189, 187, 187);
+}
+.tab-scroll::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:rgb(199, 227, 252);
+}
+button:disabled{
+    background-color: gray !important;
+}
+body{
+    background: linear-gradient(90deg, rgba(255,238,227,1) 4%, rgba(219,238,255,1) 83%);
+}

@@ -1,6 +1,4 @@
 import { notifications } from "@mantine/notifications";
-import { IconExclamationMark } from "@tabler/icons-react";
-import { IconCheck, IconX } from "@tabler/icons-react";
 
 export const successMessage = (msg) => {
   notifications.show({
@@ -9,7 +7,6 @@ export const successMessage = (msg) => {
     autoClose: 3500,
     title: msg,
     color: "green",
-    icon: <IconCheck />,
     className: "success-notification",
     loading: false,
   });
@@ -22,7 +19,6 @@ export const errorMessage = (error) => {
     autoClose: 3500,
     message: error || "Internal Server Error",
     color: "red",
-    icon: <IconX />,
     className: "failure-notification",
     loading: false,
   });
@@ -35,7 +31,6 @@ export const warningMessage = (error) => {
     autoClose: 3500,
     message: error || "Internal Server Error",
     color: "yellow",
-    icon: <IconExclamationMark />,
     className: "warning-notification",
     loading: false,
   });
